@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="55px" height="55px" viewBox="0 0 55 55" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>icon_dd_audit</title>
+    <g id="Visuals" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Deep-Decision_@2x" transform="translate(-192.000000, -1818.000000)" stroke="#1A94FF" stroke-width="2">
+            <g id="02" transform="translate(159.000000, 1512.000000)">
+                <g id="Group-6" transform="translate(1.000000, 256.000000)">
+                    <g id="icon_dd_audit" transform="translate(32.651163, 50.651163)">
+                        <rect id="Rectangle" fill="#1A94FF" transform="translate(4.075905, 4.075905) scale(1, -1) translate(-4.075905, -4.075905) " x="1" y="1" width="6.15180929" height="6.15180929" rx="3.07590465"></rect>
+                        <rect id="Rectangle" transform="translate(26.848837, 26.848837) scale(1, -1) rotate(-360.000000) translate(-26.848837, -26.848837) " x="18.6780513" y="18.6780513" width="16.3415709" height="16.3415709"></rect>
+                        <rect id="Rectangle-Copy-20" transform="translate(26.848837, 26.848837) scale(1, -1) rotate(-360.000000) translate(-26.848837, -26.848837) " x="3.41238507" y="3.41238507" width="46.8729034" height="46.8729034"></rect>
+                        <rect id="Rectangle" fill="#1A94FF" transform="translate(49.621769, 49.621769) scale(1, -1) translate(-49.621769, -49.621769) " x="46.5458647" y="46.5458647" width="6.15180929" height="6.15180929" rx="3.07590465"></rect>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

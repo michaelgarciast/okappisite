@@ -1,0 +1,290 @@
+//Section Introduction
+.bg-section-introdution{
+    background: linear-gradient(150deg, rgb(2, 52, 134) 0%, rgb(4, 0, 32) 65vw);
+    position: relative;
+    top: 0;
+
+    section{
+        &.custom-py-1 {
+            padding-top: 10rem !important;
+            padding-bottom: 10rem !important;
+        }
+
+        .banner-okappi{
+            max-width: 100%;
+            height: auto;
+        }
+
+        .title-banner{
+            color: rgb(255, 255, 255);
+            font-size: 3rem;
+            line-height: 3.4rem;
+            letter-spacing: 0rem;
+            max-width: 560px;
+            overflow: hidden;
+            padding: 11px 0px 0px;
+            
+        }
+        .text-banner{
+            color: rgb(191, 201, 228);
+            font-weight: 400;
+            -webkit-font-smoothing: antialiased;
+            font-size: 1.125rem;
+            line-height: 1.75rem;
+            letter-spacing: 0rem;
+            max-width: 560px;
+            padding: 26px 0px 0px;
+        }
+
+        .link-banner{
+            color: rgb(191, 201, 228);
+            font-size: 1.1rem;
+            font-weight: 800;
+            position: relative;
+            text-decoration: none;
+
+            &::before{
+                content: '';
+                position: absolute;
+                width: 100%;
+                height: 2px;
+                border-radius: 4px;
+                background-color: #ffffff;
+                bottom: 0;
+                left: 0;
+                transform-origin: right;
+                transform: scaleX(0);
+                transition: transform .3s ease-in-out;
+            }
+            &:hover::before{
+                transform-origin: left;
+                transform: scaleX(1);
+            }
+        }
+
+    }
+}
+
+//SectionDescription
+.bg-description{
+    background: linear-gradient(-45deg, #071D58, #062263, #0e2137, #092f57);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+    // background: rgb(0,0,0);  
+    // background: linear-gradient(220deg, rgb(2, 52, 134) 0%, rgb(4, 0, 32) 35vw); 
+    padding: 50px 50px;
+
+
+    .icon-okappi{
+        width: 9%;
+        margin-bottom: 30px;
+    }
+
+    .title-description{
+        color:#ffffff;
+        font-size: 2.75rem;
+        line-height: 3.25rem;
+    }
+
+    .subtitle-description{
+        color: #22c08a;
+        text-transform: uppercase;
+        font-weight: 600;
+        font-size: 0.75rem;
+        line-height: 0.75rem;
+        letter-spacing: 0.1875rem;
+        padding: 0px 0px 15px;
+
+    }
+
+    .text-description{
+        color: rgb(178, 190, 223);
+        font-weight: 400;
+        font-size: 1.125rem;
+        line-height: 1.75rem;
+        letter-spacing: 0rem;
+        padding-top: 200px;
+    }
+
+    .link-banner{
+        color: rgb(34, 192, 138);
+        font-size: 1.1rem;
+        font-weight: 800;
+        position: relative;
+        text-decoration: none;
+
+        &::before{
+            content: '';
+            position: absolute;
+            width: 100%;
+            height: 2px;
+            border-radius: 4px;
+            background-color:#22c08a;
+            bottom: 0;
+            left: 0;
+            transform-origin: right;
+            transform: scaleX(0);
+            transition: transform .3s ease-in-out;
+        }
+        &:hover::before{
+            transform-origin: left;
+            transform: scaleX(1);
+        }
+    }
+
+    .card-content{
+        padding-top: 50px;
+
+        .icon-proyect{
+            background-color: #ffffff;
+            box-shadow: rgb(255 255 255 / 35%) 0px 8px 24px;
+            border-radius: 12px;
+            padding: 10px;
+            transition: transform .3s; /* Animation */
+            width: 22%;
+
+            &:hover{
+                transform: scale(1.1);
+            }
+            
+        }
+    
+        .title-card{
+            margin-top: 20px;
+            color: #ffffff;
+            font-weight: 400;
+        }
+
+        .text-card{
+            color: rgb(178, 190, 223);
+        }
+
+        hr{
+            color: #ffffff;
+        }
+    }
+    @keyframes gradient {
+        0% {
+            background-position: 0% 50%;
+        }
+        50% {
+            background-position: 100% 50%;
+        }
+        100% {
+            background-position: 0% 50%;
+        }
+    }
+}
+
+//Section Services
+.bg-services{
+    background-color: #f7f9fb;
+    padding: 60px 40px;
+
+    .okappi-services{
+        width: 100%;
+    }
+
+    .iconsection3{
+        width: 14%;
+    }
+
+    h5{
+        color: rgb(26, 148, 255);
+        text-transform: uppercase;
+        font-weight: 600;
+        font-size: 0.75rem;
+        line-height: 0.75rem;
+        letter-spacing: 0.1875rem;
+        padding-top: 10px;
+    }
+
+    h3{
+        color: rgb(28, 51, 55);
+        font-size: 2.75rem;
+        font-weight: 400;
+        line-height: 3.25rem;
+        letter-spacing: 0rem;
+        padding-bottom: 20px;
+    }
+
+    p{
+        color: rgb(4, 0, 32);
+        font-weight: 400;
+        font-size: 1.125rem;
+        line-height: 1.75rem;
+
+    }
+    .list-dot{
+        background-color: rgb(1, 164, 121);
+        width: 8px;
+        height: 8px;
+        border-radius: 50%;
+        display: inline-block;
+    }
+
+    .text-item{
+        font-size: 0.9rem;
+    }
+}
+
+//Section Clients
+.bg-clients{
+    background-color: #ffffff;
+
+    h2{
+        font-weight: 600;
+        text-align: center;
+        color:#092f57;
+
+        span{
+            color: #22c08a;
+        }
+    }
+    p{
+        text-align: center;
+        font-size: 1rem;
+        margin-top: 25px;
+    }
+    span{
+        color: #22c08a;
+        font-weight: 600;
+    }
+
+    .list-box {
+        height: 100px;
+        width: 100px;
+        margin: 20px 40px; 
+
+        .logos-leng{
+            transition: transform .3s; /* Animation */
+            box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+            border-radius: 8px;
+            width: 150%;
+    
+            &:hover{
+                box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+                border-radius: 10px ;
+                transform: scale(1.1);
+            }
+        }
+    }
+
+    .content-ceo{
+        background: #062263;
+        border-radius: 20px;
+        color: #ffffff;
+        margin: 2rem 8rem;
+        padding: 4rem 6rem;
+
+        p{
+            font-size: 1.2rem;
+        }
+    }
+
+    
+
+    
+}
+
+
