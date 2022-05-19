@@ -7045,7 +7045,7 @@ const SecondPage = () => /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createE
   title: "Page two"
 }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("h1", null, "Hi from the second page"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", null, "Welcome to page 2"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(gatsby__WEBPACK_IMPORTED_MODULE_1__.Link, {
   to: "/"
-}, "Go back to the homepage"));
+}, "Go back to the homepagee"));
 
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (SecondPage);
 

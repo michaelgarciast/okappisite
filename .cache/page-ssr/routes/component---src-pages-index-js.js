@@ -6795,11 +6795,7 @@ const SectionClients = () => {
     className: "logos-leng",
     src: idiom.image,
     alt: "icon-idioms"
-  }))))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
-    className: "content-ceo"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
-    className: "d-flex justify-content-center"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", null, "Necesit\xE1bamos que nuestra App fuera incre\xEDblemente r\xE1pida, escalable, tuviera una seguridad de primer nivel y, lo que es m\xE1s importante, permitiera a los creadores de contenido que no son desarrolladores experimentar un nuevo mundo.", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("span", null, " Okappi S.A.S"), " no defraud\xF3: seis meses despu\xE9s de implementar tecnolog\xEDa de primer nivel, hemos aumentado el tr\xE1fico de nuestra App en un 97.3%,", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("br", null), " \xA1y esperamos que ese n\xFAmero siga aumentando!"))))));
+  }))))))));
 };
 
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (SectionClients);
@@ -6893,6 +6889,45 @@ const SectionDescription = () => {
 };
 
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (SectionDescription);
+
+/***/ }),
+
+/***/ "./src/components/home/SectionInformation.js":
+/*!***************************************************!*\
+  !*** ./src/components/home/SectionInformation.js ***!
+  \***************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+
+
+const SectionInformation = () => {
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("section", {
+    className: "information"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+    className: "container"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+    className: "row"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+    className: "col-sm-6"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h3", {
+    className: "subtitle-okappi-option1"
+  }, "R\xC1PIDO DE CONSTRUIR"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h1", {
+    className: "title-okappi-option1"
+  }, "estaras en las mejores manos"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", {
+    className: "text-okappi-option1"
+  }, "Llega m\xE1s lejos, m\xE1s r\xE1pido, con Okappi. Cree su pr\xF3ximo sitio web o aplicaci\xF3n web personalizada. Agregue f\xE1cilmente funciones, como SEO, an\xE1lisis o b\xFAsqueda. brinda todo lo que necesita para crear su pr\xF3ximo proyecto web, m\xE1s r\xE1pido.")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+    className: "col-sm-6"
+  }))));
+};
+
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (SectionInformation);
 
 /***/ }),
 
@@ -7311,10 +7346,12 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _components_home_SectionDescription__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../components/home/SectionDescription */ "./src/components/home/SectionDescription.js");
 /* harmony import */ var _components_home_SectionServices__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../components/home/SectionServices */ "./src/components/home/SectionServices.js");
 /* harmony import */ var _components_home_SectionClients__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../components/home/SectionClients */ "./src/components/home/SectionClients.js");
-/* harmony import */ var _styles_index_scss__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../styles/index.scss */ "./src/styles/index.scss");
-/* harmony import */ var _styles_index_scss__WEBPACK_IMPORTED_MODULE_7___default = /*#__PURE__*/__webpack_require__.n(_styles_index_scss__WEBPACK_IMPORTED_MODULE_7__);
-/* harmony import */ var _styles_responsive_scss__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ../styles/responsive.scss */ "./src/styles/responsive.scss");
-/* harmony import */ var _styles_responsive_scss__WEBPACK_IMPORTED_MODULE_8___default = /*#__PURE__*/__webpack_require__.n(_styles_responsive_scss__WEBPACK_IMPORTED_MODULE_8__);
+/* harmony import */ var _components_home_SectionInformation__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../components/home/SectionInformation */ "./src/components/home/SectionInformation.js");
+/* harmony import */ var _styles_index_scss__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ../styles/index.scss */ "./src/styles/index.scss");
+/* harmony import */ var _styles_index_scss__WEBPACK_IMPORTED_MODULE_8___default = /*#__PURE__*/__webpack_require__.n(_styles_index_scss__WEBPACK_IMPORTED_MODULE_8__);
+/* harmony import */ var _styles_responsive_scss__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ../styles/responsive.scss */ "./src/styles/responsive.scss");
+/* harmony import */ var _styles_responsive_scss__WEBPACK_IMPORTED_MODULE_9___default = /*#__PURE__*/__webpack_require__.n(_styles_responsive_scss__WEBPACK_IMPORTED_MODULE_9__);
+
 
 
 
@@ -7328,7 +7365,7 @@ __webpack_require__.r(__webpack_exports__);
 
 const IndexPage = () => /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_components_OkappiLayout__WEBPACK_IMPORTED_MODULE_1__["default"], null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_components_seo__WEBPACK_IMPORTED_MODULE_2__["default"], {
   title: "Home"
-}), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_components_home_SectionIntroduction__WEBPACK_IMPORTED_MODULE_3__.SectionIntroduction, null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_components_home_SectionDescription__WEBPACK_IMPORTED_MODULE_4__["default"], null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_components_home_SectionServices__WEBPACK_IMPORTED_MODULE_5__["default"], null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_components_home_SectionClients__WEBPACK_IMPORTED_MODULE_6__["default"], null));
+}), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_components_home_SectionIntroduction__WEBPACK_IMPORTED_MODULE_3__.SectionIntroduction, null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_components_home_SectionDescription__WEBPACK_IMPORTED_MODULE_4__["default"], null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_components_home_SectionServices__WEBPACK_IMPORTED_MODULE_5__["default"], null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_components_home_SectionClients__WEBPACK_IMPORTED_MODULE_6__["default"], null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_components_home_SectionInformation__WEBPACK_IMPORTED_MODULE_7__["default"], null));
 
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (IndexPage);
 
